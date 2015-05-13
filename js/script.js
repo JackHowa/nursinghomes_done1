@@ -39,7 +39,8 @@ var map = L.map('chart').setView([38.524170, -92.557949], 7);
 
 
 //repeat this with a different name. keep the former though 
-// d3.json("js/circles_gray.json", function(collection) {
+
+// d3.json("js/circles_gray.json", function(collection1) {
 // 		collection.objects.forEach(function(d) {
 // 			d.LatLng = new L.LatLng(d.circle.coordinates[0],
 // 									d.circle.coordinates[1])
